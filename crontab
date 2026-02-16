@@ -1,0 +1,2 @@
+MAIL=mcguire@crsr.net
+23 0-23/2 * * * (cd /home/mcguire/Documents/Personal/Javascript/NASAimages-bot; npm run start)
