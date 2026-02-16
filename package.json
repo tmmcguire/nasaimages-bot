@@ -1,0 +1,29 @@
+{
+  "name": "nasaimages-bot",
+  "version": "1.0.0",
+  "description": "Upload an image to Bluesky from images.nasa.gov",
+  "keywords": [
+    "NASA",
+    "images",
+    "Bluesky",
+    "bot"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "Tommy M. McGuire <mcguire@crsr.net>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.18.21",
+    "axios": "^1.13.5",
+    "cron": "^4.4.0",
+    "dotenv": "^17.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
