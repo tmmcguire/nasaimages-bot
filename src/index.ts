@@ -140,7 +140,6 @@ async function main() {
         password: process.env.BLUESKY_PASSWORD!
     })
     const post = await get_post(new Map(Object.entries(asset['data'][0])), collection);
-    console.log("Just posted!");
 }
 
 main().catch(console.error);
